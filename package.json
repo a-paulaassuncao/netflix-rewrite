@@ -1,0 +1,15 @@
+{
+    "name": "netflix",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cascadium -c .\\cssconfig.json --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cascadium": "^0.0.7"
+    }
+}

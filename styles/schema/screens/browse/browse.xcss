@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+
+    .elemento {
+        background: url('https://occ-0-1703-1740.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABarTinkE3WTEeczSFUxmvpOk9FnB9hPsQeZlYhh4VlwyHLbbXMAN_sk3lRIyvPTqvQXHw_u5-rI1cak1VSmmi3jtLxolVJt8uFRV.webp?r=6db');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 120vh;
+        margin-top: -80px;
+        z-index: -1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 12%;
+            background-color: --bg-background;
+        }
+
+        .static {
+            bottom: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            left: 60px;
+            position: absolute;
+            top: 0;
+            width: 36%;
+            z-index: 10;
+
+            p {
+                font-size: 18px;
+            }
+
+            .btn-home {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+
+                i {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}

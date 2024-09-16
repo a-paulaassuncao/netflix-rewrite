@@ -1,0 +1,12 @@
+// .slider {
+//     display: flex;
+//     overflow-x: auto;
+//     scroll-behavior: smooth;
+// }
+
+// .slide {
+//     flex: 0 0 auto;
+//     width: 200px;
+//     /* ou o tamanho desejado */
+//     margin-right: 10px;
+// }

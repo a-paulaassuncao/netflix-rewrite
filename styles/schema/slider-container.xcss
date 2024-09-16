@@ -1,0 +1,18 @@
+.slider-container {
+    position: relative;
+    top: -290px;
+    padding: 10px 0;
+    margin-left: 50px;
+
+    .slider {
+        display: flex;
+        padding-top: 15px;
+        gap: 10px;
+
+        .slide {
+            border-radius: 4px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
+}

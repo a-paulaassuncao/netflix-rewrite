@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+
+    &.transparent {
+        background-color: transparent;
+    }
+
+    &.scrolled {
+        background-color: var(--bg-background);
+    }
+
+    .logo-marca {
+        width: 100px;
+    }
+
+    .navigate {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 60px 0;
+        position: relative;
+
+        .left-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .right-menu {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+body {
+    margin: 0;
+    padding-top: 20px;
+}

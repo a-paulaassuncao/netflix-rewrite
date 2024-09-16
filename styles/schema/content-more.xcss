@@ -1,0 +1,39 @@
+.content-more {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 50px;
+
+    position: relative;
+    top: -290px;
+
+    .title-list {
+        display: flex;
+        flex-direction: column;
+
+        margin-block: 30px;
+
+        img {
+            cursor: pointer;
+        }
+
+        .progress {
+            margin-left: 80px;
+        }
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .photo {
+            cursor: pointer;
+
+            img {
+                width: 295px;
+                height: 165px;
+                border-radius: 4px;
+            }
+        }
+    }
+}

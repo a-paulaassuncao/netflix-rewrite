@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+
+    .elemento-login {
+        background: url('/assets/img/background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        z-index: -1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 12%;
+        }
+
+        .static {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+}

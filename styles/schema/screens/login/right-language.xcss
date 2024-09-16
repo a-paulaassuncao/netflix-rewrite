@@ -1,0 +1,46 @@
+.right-language {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    .lg {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+        .select-lg {
+            position: absolute;
+            right: 27.2%;
+        }
+
+        select {
+            height: 30px;
+            color: --bg-100;
+            background-color: transparent;
+
+            border: 1px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+            border-radius: 4px;
+            padding: 0 10px 0 35px;
+        }
+    }
+
+    button {
+        background-color: --notifications-500;
+        border: none;
+        line-height: 30px;
+        font-size: 13px;
+        width: 75px;
+        height: auto;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+}
+
+// option {
+//     color: black;
+// }
+
+// &:focus {
+//     outline: none;
+// }

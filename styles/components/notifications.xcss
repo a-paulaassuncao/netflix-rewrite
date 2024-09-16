@@ -1,0 +1,23 @@
+.notifications {
+
+    i {
+        font-size: 21px;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: 0;
+        margin: 0 14px;
+
+        width: 17px;
+        height: 17px;
+
+        font-size: 12px;
+        border-radius: 50%;
+        background-color: --notifications-500;
+    }
+}

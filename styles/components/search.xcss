@@ -1,0 +1,5 @@
+.search {
+    i {
+        font-size: 28px;
+    }
+}

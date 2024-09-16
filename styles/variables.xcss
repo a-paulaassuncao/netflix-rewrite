@@ -1,0 +1,8 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+
+    --bg-100: #fff;
+    --bg-background: #141414;
+
+    --notifications-500: #e50914;
+}

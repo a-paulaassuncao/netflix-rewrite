@@ -1,0 +1,11 @@
+:root {
+    color: --bg-100;
+    font-family: --font-family;
+    background-color: --bg-background;
+
+    span {
+        font-size: 1.4vw;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+}

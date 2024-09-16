@@ -1,0 +1,15 @@
+.menu {
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+
+a {
+    color: --bg-100;
+    font-size: 13px;
+    padding-inline: 8px;
+    text-decoration: none;
+
+    &:hover {
+        color: #b3b3b3;
+    }
+}

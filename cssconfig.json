@@ -1,0 +1,7 @@
+{
+    "inputDirectories": [
+        "styles"
+    ],
+    "pretty": false,
+    "outputFile": "assets/app.css"
+}

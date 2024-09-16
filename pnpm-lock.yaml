@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      cascadium:
+        specifier: ^0.0.7
+        version: 0.0.7
+
+packages:
+
+  cascadium@0.0.7:
+    resolution: {integrity: sha512-B7PqfnaNEZIwwn2bT+3E5/tCan3ZDdNrQjfinl3ub6K5DSSe/bWI5tFg9w1ALbqQ+8r3x3ogfosHa13IUGWliw==}
+
+snapshots:
+
+  cascadium@0.0.7: {}

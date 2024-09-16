@@ -1,0 +1,60 @@
+.slider-container-initial {
+    position: relative;
+    top: -290px;
+    padding: 10px 0;
+    margin-left: 50px;
+
+    .text-title-home {
+        font-size: 1.4vw;
+        font-weight: 500;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            #title-more {
+                font-size: 1vw;
+                font-weight: 400;
+                margin-inline: 10px;
+                color: #54b9c5;
+                opacity: 0;
+                /* Esconde o texto inicialmente */
+                transition: opacity 0.3s ease-in-out;
+                /* Animação suave */
+
+                i {
+                    font-size: 1.3vw;
+                    font-weight: 700;
+                    opacity: 0;
+                    /* Esconde o ícone inicialmente */
+                    animation: opacity 0.3s ease-in-out;
+                    /* Animação suave */
+                }
+            }
+
+            &:hover #title-more,
+            /* Mostra o texto e o ícone ao passar o mouse na div */
+            &:hover #title-more i {
+                opacity: 1;
+            }
+        }
+
+    }
+
+
+    .slider {
+        display: flex;
+        padding-top: 15px;
+        gap: 10px;
+
+        .slide {
+            // border-radius: 4px;
+            overflow: hidden;
+            cursor: pointer;
+
+            img {
+                border-radius: 4px;
+            }
+        }
+    }
+}
