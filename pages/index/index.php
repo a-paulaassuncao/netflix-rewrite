@@ -8,7 +8,9 @@
             <div class="header">
                 <div class="navigate">
                     <div class="left-menu">
-                        <img class="logo-marca" src="/assets/img/logo.png" alt="logo-marca">
+                        <a href="">
+                            <img class="logo-marca" src="/assets/img/logo.png" alt="logo-marca" />
+                        </a>
                         <div class="menu">
                             <a href=""><strong>Início</strong></a>
                             <a href="">Séries</a>
